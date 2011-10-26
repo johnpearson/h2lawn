@@ -24,8 +24,18 @@ body {
 	width: 1000px;
 }
 
-/* Header styling */
+/* Header Styling */
 .header {
-	padding-top: 35px;
+	padding-top: 25px;
 	padding-left: 100px;
+}
+
+/* Main Body Styling */
+.main_table {
+	padding-top: 55px;
+	padding-left: 250px;
+}
+
+.main_table tr td {
+	padding-left: 60px;
 }
