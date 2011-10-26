@@ -15,7 +15,6 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
 }
 
 body {
-	min-width: 980px;
 	background-image: url('background.jpg');
 	background-repeat: no-repeat;
 	font-family: Arial, Verdana, sans-serif;
@@ -23,7 +22,7 @@ body {
 }
 
 .container {
-	width: 900px;
+	width: 1000px;
 }
 
 /* Header styling */
