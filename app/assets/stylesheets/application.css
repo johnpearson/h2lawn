@@ -30,6 +30,12 @@ body {
 	padding-left: 100px;
 }
 
+.links {
+	color: red;
+	font-size: 150%;
+	float: right;
+}
+
 /* Main Body Styling */
 .main_table {
 	padding-top: 55px;
@@ -38,4 +44,10 @@ body {
 
 .main_table tr td {
 	padding-left: 45px;
+}
+
+.info {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 35px;
 }
