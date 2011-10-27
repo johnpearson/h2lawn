@@ -33,9 +33,9 @@ body {
 /* Main Body Styling */
 .main_table {
 	padding-top: 55px;
-	padding-left: 250px;
+	padding-left: 100px;
 }
 
 .main_table tr td {
-	padding-left: 60px;
+	padding-left: 45px;
 }
