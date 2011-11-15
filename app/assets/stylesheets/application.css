@@ -38,7 +38,7 @@ body {
 
 /* Main Body Styling */
 .main_table {
-	padding-top: 55px;
+	padding-top: 35px;
 	padding-left: 100px;
 }
 
@@ -48,4 +48,9 @@ body {
 
 .info {
 	padding-top: 35px;
+}
+
+div.intro {
+	padding-top: 25px;
+	padding-left: 45px;
 }
