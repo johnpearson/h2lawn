@@ -25,4 +25,16 @@ module ApplicationHelper
   def landscape_button
     landscape_button = image_tag("landscape_design.gif", :alt => "Landscape Design")
   end
+  
+  def about_button
+    about_button = image_tag("about.gif", :alt => "About Us")
+  end
+  
+  def rates_button
+    rates_button = image_tag("rates.gif", :alt => "Rates & Scheduling")
+  end
+  
+  def pay_button
+    pay_button = image_tag("pay.gif", :alt => "Pay Your Bill")
+  end
 end
