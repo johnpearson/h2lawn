@@ -12,59 +12,48 @@
 body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
 article, aside, dialog, figure, footer, header, hgroup, nav, section {
 	display:block;
-}
+} 
 
 body {
-	background-image: url('background2.jpg');
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 100%;
 }
 
 .container {
-	width: 1000px;
+	width: 1100px;
 }
 
 /* Header Styling */
 .header {
-	padding-top: 25px;
+	padding-top: 5px;
 	padding-left: 100px;
 }
 
-.links {
-	color: red;
-	font-size: 150%;
-	float: right;
-}
-
-/* Main Body Styling */
-.main_table {
-	padding-top: 35px;
-	padding-left: 100px;
-}
-
-.main_table tr td {
-	padding-left: 45px;
-}
-
-.info {
-	padding-top: 35px;
+/* Main Page Styling */
+.main {
+	background-image: url("main_background.png");
+	background-repeat: no-repeat;
+	padding-top: 0px;
+	margin-left: 80px;
+	width: 1100px;
+	height: 700px;
 }
 
 div#one {
-	padding-top: 25px;
-	padding-left: 65px;
+	padding-top: 65px;
+	padding-left: 90px;
 	display: none;
 }
 
 div#two {
 	padding-top: 25px;
-	padding-left: 105px;
+	padding-left: 90px;
 	display: none;
 }
 
 div#three {
 	padding-top: 25px;
-	padding-left: 145px;
+	padding-left: 90px;
 	display: none;
 }
 
