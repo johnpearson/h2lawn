@@ -50,7 +50,21 @@ body {
 	padding-top: 35px;
 }
 
-div.intro {
+div#one {
 	padding-top: 25px;
-	padding-left: 45px;
+	padding-left: 65px;
+	display: none;
 }
+
+div#two {
+	padding-top: 25px;
+	padding-left: 105px;
+	display: none;
+}
+
+div#three {
+	padding-top: 25px;
+	padding-left: 145px;
+	display: none;
+}
+
