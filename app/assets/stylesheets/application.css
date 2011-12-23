@@ -21,6 +21,7 @@ body {
 
 .container {
 	background-image: url("background.png");
+	background-repeat: repeat;
 }
 
 /* Header Styling */
@@ -72,6 +73,8 @@ div#four {
 
 /* Footer Styling */
 .footer {
+	color: white;
+	font-weight: bold;
 	padding: 20px;
 	text-align: center;
 }
