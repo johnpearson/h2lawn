@@ -23,18 +23,22 @@ module ApplicationHelper
   end
   
   def landscape_button
-    landscape_button = image_tag("landscape_design.gif", :alt => "Landscape Design")
+    landscape_button = image_tag("landscape_design.gif", :alt => "Landscaping")
   end
   
   def about_button
     about_button = image_tag("about.gif", :alt => "About Us")
   end
   
-  def rates_button
-    rates_button = image_tag("rates.gif", :alt => "Rates & Scheduling")
+  def gallery_button
+    gallery_button = image_tag("gallery.gif", :alt => "Gallery")
   end
   
-  def pay_button
-    pay_button = image_tag("pay.gif", :alt => "Pay Your Bill")
+  def contact_button
+    pay_button = image_tag("contact.gif", :alt => "Contact")
+  end
+  
+  def maps_button
+    maps_button = image_tag("maps.gif", :alt => "Residential Maps")
   end
 end

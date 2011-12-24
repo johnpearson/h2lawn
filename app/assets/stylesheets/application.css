@@ -31,6 +31,11 @@ body {
 	padding-left: 20px;
 }
 
+#links {
+	margin-left: 25px;
+	border-bottom: solid white;
+}
+
 /* Main Page Styling */
 .main {
 	background-image: url("home.png");

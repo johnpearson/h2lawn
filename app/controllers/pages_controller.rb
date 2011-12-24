@@ -7,8 +7,8 @@ class PagesController < ApplicationController
     @title = "About Us"
   end
   
-  def info
-    @title = "Rates & Scheduling"
+  def gallery
+    @title = "Gallery"
   end
   
   def lawn
@@ -21,6 +21,14 @@ class PagesController < ApplicationController
   
   def landscape
     @title = "Landscape Design"
+  end
+  
+  def contact
+    @title = "Contact"
+  end
+  
+  def maps
+    @title = "Maps"
   end
   
 end
