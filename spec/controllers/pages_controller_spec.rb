@@ -5,79 +5,106 @@ describe PagesController do
   
   describe "GET 'home'" do
     
+    before(:each) do
+      get :home
+    end
+    
     it "should be successful" do
-      get 'home'
       response.should be_success
     end
     
     it "should have the right title" do
-      get 'home'
-      response.should have_selector("title", :content => "H2 Lawn & Snow") 
+      response.should have_selector("title", :content => "H2 Lawn and Snow") 
     end
   end
   
   describe "GET 'about'" do
     
+    before(:each) do
+      get :about
+    end
+    
     it "should be successful" do
-      get 'about'
       response.should be_success
     end
     
     it "should have the right title" do
-      get 'about'
-      response.should have_selector("title", :content => "H2 Lawn & Snow - About Us")
+      response.should have_selector("title", :content => "H2 Lawn and Snow - About Us")
     end
   end
   
-  describe "GET 'info'" do
+  describe "GET 'gallery'" do
+    
+    before(:each) do
+      get :gallery
+    end
     
     it "should be successful" do
-      get 'info'
       response.should be_success
     end
     
     it "should have the right title" do
-      get 'info'
-      response.should have_selector("title", :content => "H2 Lawn & Snow - Rates & Scheduling")
+      response.should have_selector("title", :content => "H2 Lawn and Snow - Gallery")
     end
   end
   
   describe "GET 'lawn'" do
     
+    before(:each) do
+      get :lawn
+    end
+    
     it "should be successful" do
-      get 'lawn'
       response.should be_success
     end
     
     it "should have the right title" do
-      get 'lawn'
-      response.should have_selector("title", :content => "H2 Lawn & Snow - Lawn Services")
+      response.should have_selector("title", :content => "H2 Lawn and Snow - Lawn Services")
     end
   end
   
   describe "GET 'snow'" do
     
+    before(:each) do
+      get :snow
+    end
+    
     it "should be successful" do
-      get 'snow'
       response.should be_success
     end
     
     it "should have the right title" do
-      get 'snow'
-      response.should have_selector("title", :content => "H2 Lawn & Snow - Snow Removal")
+      response.should have_selector("title", :content => "H2 Lawn and Snow - Snow Removal")
     end
   end
   
   describe "GET 'landscape'" do
     
+    before(:each) do
+      get :landscape
+    end
+    
     it "should be successful" do
-      get 'landscape'
       response.should be_success
     end
     
     it "should have the right title" do
-      get 'landscape'
-      response.should have_selector("title", :content => "H2 Lawn & Snow - Landscape Design")
+      response.should have_selector("title", :content => "H2 Lawn and Snow - Landscaping")
+    end
+  end
+  
+  describe "GET 'contact'" do
+    
+    before(:each) do
+      get :contact
+    end
+    
+    it "should be successful" do
+      response.should be_success
+    end
+    
+    it "should have the right title" do
+      response.should have_selector("title", :content => "H2 Lawn and Snow - Contact")
     end
   end
 end

@@ -20,7 +20,7 @@ class PagesController < ApplicationController
   end
   
   def landscape
-    @title = "Landscape Design"
+    @title = "Landscaping"
   end
   
   def contact

@@ -1,7 +1,7 @@
 module ApplicationHelper
   # Set base title
   def title
-    base_title = "H2 Lawn & Snow"
+    base_title = "H2 Lawn and Snow"
     if @title.nil?
       base_title
     else
@@ -15,30 +15,30 @@ module ApplicationHelper
   end
   
   def snow_button
-    snow_button = image_tag("snow_removal.gif", :alt => "Snow Removal")
+    snow_button = image_tag("snow_removal.png", :alt => "Snow Removal")
   end
   
   def lawn_button
-    lawn_button = image_tag("lawn_care.gif", :alt => "Lawn Care")
+    lawn_button = image_tag("lawn_care.png", :alt => "Lawn Care")
   end
   
   def landscape_button
-    landscape_button = image_tag("landscape_design.gif", :alt => "Landscaping")
+    landscape_button = image_tag("landscape_design.png", :alt => "Landscaping")
   end
   
   def about_button
-    about_button = image_tag("about.gif", :alt => "About Us")
+    about_button = image_tag("about.png", :alt => "About Us")
   end
   
   def gallery_button
-    gallery_button = image_tag("gallery.gif", :alt => "Gallery")
+    gallery_button = image_tag("gallery.png", :alt => "Gallery")
   end
   
   def contact_button
-    pay_button = image_tag("contact.gif", :alt => "Contact")
+    pay_button = image_tag("contact.png", :alt => "Contact")
   end
   
   def maps_button
-    maps_button = image_tag("maps.gif", :alt => "Residential Maps")
+    maps_button = image_tag("maps.png", :alt => "Residential Maps")
   end
 end
